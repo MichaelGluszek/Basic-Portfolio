@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: url("../images/abkg.jpg");
+  background: url("../images/headerbkg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: grey;
@@ -74,11 +74,32 @@ footer {
   line-height: 50px;
 }
 
-/* front index */
+/* About me */
 .my-image {
   width: 200px;
   float: left;
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+/* Portfolio */
+.content {
+  float: left;
+}
+
+.content p {
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  margin-left: 150px;
+  line-height: 100px;
+}
+
+.content img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 50px;
 }
