@@ -36,6 +36,7 @@ h2 {
   background-color: rgba(192, 192, 192, 0.6);
   max-width: 960px;
   margin-top: 35px;
+  margin-bottom: 100px;
   padding-right: 30px;
   padding-left: 30px;
 }
@@ -83,23 +84,39 @@ footer {
   margin-bottom: 10px;
 }
 
+/* Contact */
+.middle-section-contact {
+  float: left;
+  background-color: rgba(192, 192, 192, 0.6);
+  max-width: 960px;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
 /* Portfolio */
 .content {
   float: left;
 }
 
-.content p {
-  font-size: 20px;
-  position: absolute;
-  text-align: center;
-  margin-left: 150px;
-  line-height: 100px;
+    #portfolio-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 70px;
+        margin: 70px;
 }
 
-.content img {
-  width: 200px;
-  height: 200px;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 50px;
+#portfolio-items > div > p {
+    margin-bottom: -110px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+img{
+    width: 100%;
 }
